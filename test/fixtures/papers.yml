@@ -1,0 +1,41 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  issue: one
+  title: MyString
+  chinese_title: MyString
+  english_title: MyString
+  author: MyString
+  chinese_author: MyString
+  english_author: MyString
+  unit: MyString
+  chinese_unit: MyString
+  english_unit: MyString
+  keywords: MyString
+  chinese_keywords: MyString
+  english_keywords: MyString
+  category: MyString
+  page_from: 1
+  page_to: 1
+  abstract: MyText
+  finish: 1
+
+two:
+  issue: two
+  title: MyString
+  chinese_title: MyString
+  english_title: MyString
+  author: MyString
+  chinese_author: MyString
+  english_author: MyString
+  unit: MyString
+  chinese_unit: MyString
+  english_unit: MyString
+  keywords: MyString
+  chinese_keywords: MyString
+  english_keywords: MyString
+  category: MyString
+  page_from: 1
+  page_to: 1
+  abstract: MyText
+  finish: 1

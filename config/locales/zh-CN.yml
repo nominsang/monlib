@@ -1,0 +1,20 @@
+zh-CN:
+  activerecord:
+    models:
+      admin_user: "管理员"
+      comment: "评论"
+      journal: "期刊"
+      issue: "卷期"
+      paper: "论文"
+      article: "原文"
+    attributes:
+      journal:
+        title: "期刊名"
+        chinese_title: "中文名"
+        english_title: "英文名"
+        slug: "短 URL"
+        name_ever: "曾用名"
+        since: "创刊于"
+        issn: "国际标准连续出版物号"
+        sponsor: "主办方"
+        introduce: "简介"
