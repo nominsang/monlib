@@ -1,6 +1,10 @@
 ActiveAdmin.register Journal do
   menu priority: 2
-
+  sidebar "该刊卷期", only: [:show, :edit] do
+    ul do
+      li link_to "卷期", admin_journal_issues_path(resource)
+    end
+  end
   # See permitted parameters documentation:
   # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
   #
