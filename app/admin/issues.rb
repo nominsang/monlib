@@ -2,7 +2,8 @@ ActiveAdmin.register Issue do
   belongs_to :journal
   sidebar "该卷期文章", only: [:show, :edit] do
     ul do
-      li link_to "文章", admin_issue_papers_path(resource)
+      li link_to "所有文章", admin_issue_papers_path(resource)
+      li link_to "新增文章", new_admin_issue_paper_path(resource)
     end
   end
   #menu parent: "期刊", priority: 1

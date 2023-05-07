@@ -2,7 +2,8 @@ ActiveAdmin.register Journal do
   menu priority: 2
   sidebar "该刊卷期", only: [:show, :edit] do
     ul do
-      li link_to "卷期", admin_journal_issues_path(resource)
+      li link_to "所有卷期", admin_journal_issues_path(resource)
+      li link_to "新增卷期", new_admin_journal_issue_path(resource)
     end
   end
   # See permitted parameters documentation:
