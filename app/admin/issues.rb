@@ -1,5 +1,8 @@
 ActiveAdmin.register Issue do
   belongs_to :journal
+  #breadcrumb do
+  #  ['admin', 'journal', 'issue']
+  #end
   sidebar "该卷期文章", only: [:show, :edit] do
     ul do
       li link_to "所有文章", admin_issue_papers_path(resource)
