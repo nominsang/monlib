@@ -6,6 +6,14 @@ ActiveAdmin.register Journal do
       li link_to "新增卷期", new_admin_journal_issue_path(resource)
     end
   end
+  index do
+    selectable_column
+    column :title
+    column :chinese_title
+    column :issn
+    actions
+  end
+  
   # See permitted parameters documentation:
   # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
   #
